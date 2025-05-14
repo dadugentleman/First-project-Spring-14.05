@@ -10,4 +10,19 @@ public class HelloWorldRestControler {
     public String helloWorld() {
         return "Hello World!";
     }
+
+    @GetMapping("/dadu")
+    public String dadu() {
+        return "Dadu!";
+    }
+
+    @GetMapping("/sevastian")
+    public String sevastian() {
+        return "Sevastian!";
+    }
+
+    @GetMapping("/vera")
+    public String vera() {
+        return "Vera!";
+    }
 }
